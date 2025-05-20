@@ -91,7 +91,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
       appBar: AppBar(
         title: const Text(
           'Contact List',
-          style: TextStyle(color: Colors.white), // Updated: White text color
+          style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
         backgroundColor: Colors.blueGrey,
@@ -171,9 +171,7 @@ class _ContactListScreenState extends State<ContactListScreen> {
                                 contact.name,
                                 style: const TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  color:
-                                      Colors
-                                          .red, // Updated: Pure red color for names
+                                  color: Colors.red,
                                 ),
                               ),
                               subtitle: Text(
